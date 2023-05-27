@@ -1,0 +1,119 @@
+[
+  {
+    "nickname": "Superman",
+    "realName": "Clark Kent",
+    "originDescription": "He was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": [
+      "Solar energy absorption and healing factor",
+      "Solar flare and heat vision",
+      "Solar invulnerability",
+      "Flight"
+    ],
+    "catchPhrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!",
+    "images": []
+  },
+  {
+    "nickname": "Spider-Man",
+    "realName": "Peter Parker",
+    "originDescription": "Bitten by a radioactive spider, Peter Parker gained the proportionate strength, speed, and agility of a spider...",
+    "superpowers": [
+      "Wall-crawling",
+      "Superhuman strength and agility",
+      "Spider-sense",
+      "Web-slinging"
+    ],
+    "catchPhrase": "With great power comes great responsibility.",
+    "images": []
+  },
+  {
+    "nickname": "Wonder Woman",
+    "realName": "Diana Prince",
+    "originDescription": "Diana, princess of the Amazons, trained warrior. When a pilot crashes and tells of conflict in the outside world, she leaves home to fight a war to end all wars...",
+    "superpowers": [
+      "Superhuman strength, speed, and agility",
+      "Invulnerability",
+      "Lasso of Truth",
+      "Flight"
+    ],
+    "catchPhrase": "I will fight for those who cannot fight for themselves.",
+    "images": []
+  },
+  {
+    "nickname": "Batman",
+    "realName": "Bruce Wayne",
+    "originDescription": "After witnessing the murder of his parents, Bruce Wayne dedicated his life to fighting crime and became the Dark Knight of Gotham City...",
+    "superpowers": [
+      "Peak human physical and mental conditioning",
+      "Master detective skills",
+      "Gadgets and advanced technology",
+      "Martial arts expertise"
+    ],
+    "catchPhrase": "I'm Batman.",
+    "images": []
+  },
+  {
+    "nickname": "Iron Man",
+    "realName": "Tony Stark",
+    "originDescription": "Genius, billionaire, playboy, and philanthropist Tony Stark built a high-tech suit of armor to save his own life and protect the world as Iron Man...",
+    "superpowers": [
+      "Powered armor suit",
+      "Flight",
+      "Repulsor beams",
+      "Advanced technology"
+    ],
+    "catchPhrase": "I am Iron Man.",
+    "images": []
+  },
+  {
+    "nickname": "Captain America",
+    "realName": "Steve Rogers",
+    "originDescription": "Steve Rogers volunteered to be transformed into a super-soldier to fight in World War II. He became the patriotic symbol of freedom and justice...",
+    "superpowers": [
+      "Enhanced strength, speed, and agility",
+      "Superhuman durability",
+      "Expert martial artist",
+      "Vibranium shield"
+    ],
+    "catchPhrase": "I can do this all day.",
+    "images": []
+  },
+  {
+    "nickname": "The Flash",
+    "realName": "Barry Allen",
+    "originDescription": "Scientist Barry Allen gained superhuman speed after being struck by lightning and exposed to chemicals, becoming the fastest man alive...",
+    "superpowers": [
+      "Superhuman speed",
+      "Accelerated healing",
+      "Time travel",
+      "Speed force connection"
+    ],
+    "catchPhrase": "I am the fastest man alive.",
+    "images": []
+  },
+  {
+    "nickname": "Thor",
+    "realName": "Thor Odinson",
+    "originDescription": "Thor, the Norse god of thunder, was banished to Earth and forced to learn humility. With his mighty hammer Mjolnir, he protects both realms...",
+    "superpowers": [
+      "Superhuman strength",
+      "Control over lightning and storms",
+      "Flight",
+      "Mjolnir, the enchanted hammer"
+    ],
+    "catchPhrase": "I am Thor, son of Odin!",
+    "images": []
+  },
+  {
+    "nickname": "Hulk",
+    "realName": "Bruce Banner",
+    "originDescription": "Dr. Bruce Banner, a brilliant scientist, was exposed to gamma radiation, causing him to transform into the raging green monster known as the Hulk...",
+    "superpowers": [
+      "Superhuman strength",
+      "Regenerative healing",
+      "Unlimited endurance",
+      "Unstoppable rage"
+    ],
+    "catchPhrase": "Hulk smash!",
+    "images": []
+  }
+]

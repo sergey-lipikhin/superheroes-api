@@ -4,7 +4,7 @@ import { router as superheroRouter } from './routes/superheroes';
 import { initDb } from './database/initDb.js';
 import { Superhero } from './models/superhero';
 
-const PORT = 4000;
+const PORT = 3000;
 const SUPERHEROES_ENDPOINT = '/superheroes';
 
 const server = express();
@@ -16,7 +16,7 @@ const sequelize = await initDb();
 
 sequelize.addModels([Superhero]);
 
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
   global.console.log(`Server is running on PORT = ${PORT}`);
 });
 

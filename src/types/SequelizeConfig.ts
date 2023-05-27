@@ -1,13 +1,17 @@
 import { SequelizeOptions } from 'sequelize-typescript';
 
-export type SequelizeConfigLocal = {
+export interface SequelizeConfigLocal {
   database: string,
   username: string,
   password: string,
   options?: SequelizeOptions,
 };
 
-export type SequelizeConfigRemote = {
+export interface SequelizeConfigRemote {
   uri: string,
   options?: SequelizeOptions,
 };
+
+export interface SequelizeConfig {
+  [key: string]: SequelizeConfigLocal | SequelizeConfigRemote;
+}

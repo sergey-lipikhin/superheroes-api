@@ -1,23 +1,17 @@
 import { Sequelize } from 'sequelize-typescript';
-import { developmentConfig, productionConfig } from '../configs';
-import { setModels } from './setModels';
+import configs from '../configs';
+import {
+  checkInstanceOfSequelizeConfigRemote,
+} from '../helpers/checkInstanceOfSequelizeConfigRemote';
 
 export const initDb = async() => {
-  let sequelize;
+  const env = process.env.NODE_ENV || 'development';
+  const config = configs[env];
 
-  if (process.env.NODE_ENV === 'production') {
-    setModels(productionConfig);
-
-    const { uri, options } = productionConfig;
-
-    sequelize = new Sequelize(uri, options);
-  } else {
-    setModels(developmentConfig);
-
-    const { database, username, password, options } = developmentConfig;
-
-    sequelize = new Sequelize(database, username, password, options);
-  }
+  const sequelize = checkInstanceOfSequelizeConfigRemote(config)
+    ? new Sequelize(config.uri, config.options)
+    : new Sequelize(config.database,
+      config.username, config.password, config.options);
 
   try {
     sequelize.authenticate({ logging: false });

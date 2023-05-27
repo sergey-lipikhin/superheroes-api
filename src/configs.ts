@@ -1,12 +1,13 @@
 import dotenv from 'dotenv';
 import {
+  SequelizeConfig,
   SequelizeConfigLocal,
   SequelizeConfigRemote,
 } from './types/SequelizeConfig';
 
 dotenv.config();
 
-export const developmentConfig: SequelizeConfigLocal = {
+const developmentConfig: SequelizeConfigLocal = {
   database: process.env.DB_NAME || 'postgres',
   username: process.env.DB_USERNAME || 'postgres',
   password: process.env.DB_PASSWORD || 'wrong password',
@@ -17,7 +18,7 @@ export const developmentConfig: SequelizeConfigLocal = {
   },
 };
 
-export const productionConfig: SequelizeConfigRemote = {
+const productionConfig: SequelizeConfigRemote = {
   uri: process.env.DB_URI || 'there should be uri to db',
   options: {
     dialectOptions: {
@@ -25,3 +26,10 @@ export const productionConfig: SequelizeConfigRemote = {
     },
   },
 };
+
+const sequlizeConfig: SequelizeConfig = {
+  development: developmentConfig,
+  production: productionConfig,
+};
+
+export default sequlizeConfig;

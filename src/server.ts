@@ -1,10 +1,13 @@
 import express from 'express';
 import cors from 'cors';
+import dotenv from 'dotenv';
 import { router as superheroRouter } from './routes/superheroes';
 import { initDb } from './database/initDb.js';
 import { Superhero } from './models/superhero';
 
-const PORT = 3000;
+dotenv.config();
+
+const PORT = Number(process.env.PORT) || 3000;
 const SUPERHEROES_ENDPOINT = '/superheroes';
 
 const server = express();

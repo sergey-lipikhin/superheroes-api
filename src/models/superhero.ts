@@ -7,7 +7,7 @@ import {
 import { DataTypes, Optional } from 'sequelize';
 import { ISuperhero } from '../types/ISuperhero';
 
-export interface SuperheroAttributes extends ISuperhero {
+interface SuperheroAttributes extends ISuperhero {
   id: string;
 }
 

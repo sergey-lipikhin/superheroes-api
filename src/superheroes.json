@@ -10,7 +10,9 @@
       "Flight"
     ],
     "catchPhrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!",
-    "images": []
+    "images": [
+      "img/superman.jpg"
+    ]
   },
   {
     "nickname": "Spider-Man",
@@ -23,7 +25,9 @@
       "Web-slinging"
     ],
     "catchPhrase": "With great power comes great responsibility.",
-    "images": []
+    "images": [
+      "img/spider-man.jpg"
+    ]
   },
   {
     "nickname": "Wonder Woman",
@@ -36,7 +40,9 @@
       "Flight"
     ],
     "catchPhrase": "I will fight for those who cannot fight for themselves.",
-    "images": []
+    "images": [
+      "img/wonderwoman.webp"
+    ]
   },
   {
     "nickname": "Batman",
@@ -49,7 +55,9 @@
       "Martial arts expertise"
     ],
     "catchPhrase": "I'm Batman.",
-    "images": []
+    "images": [
+      "img/batman.png"
+    ]
   },
   {
     "nickname": "Iron Man",
@@ -62,7 +70,9 @@
       "Advanced technology"
     ],
     "catchPhrase": "I am Iron Man.",
-    "images": []
+    "images": [
+      "img/iron-man.jpg"
+    ]
   },
   {
     "nickname": "Captain America",
@@ -75,7 +85,9 @@
       "Vibranium shield"
     ],
     "catchPhrase": "I can do this all day.",
-    "images": []
+    "images": [
+      "img/captaim-america.jpg"
+    ]
   },
   {
     "nickname": "The Flash",
@@ -88,7 +100,9 @@
       "Speed force connection"
     ],
     "catchPhrase": "I am the fastest man alive.",
-    "images": []
+    "images": [
+      "img/flash.jpg"
+    ]
   },
   {
     "nickname": "Thor",
@@ -101,7 +115,9 @@
       "Mjolnir, the enchanted hammer"
     ],
     "catchPhrase": "I am Thor, son of Odin!",
-    "images": []
+    "images": [
+      "img/thor.jpg"
+    ]
   },
   {
     "nickname": "Hulk",
@@ -114,6 +130,8 @@
       "Unstoppable rage"
     ],
     "catchPhrase": "Hulk smash!",
-    "images": []
+    "images": [
+      "img/hulk.jpg"
+    ]
   }
 ]
